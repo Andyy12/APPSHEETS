@@ -1,7 +1,7 @@
 CONCATENATE
 (
     "¡Hola "
-    ,LOOKUP(USEREMAIL(), "Usuarios", "UsuarioCorreo", "UsuarioNombreCorto")
+    ,LOOKUP(USEREMAIL(), "USERS", "USEREMAIL", "NOMBRE CORTO")
     ,"! "
     ,IF
     (
