@@ -1,2 +1,0 @@
-# APPSHEETS
-Código de appshets
