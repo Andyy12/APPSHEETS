@@ -1,0 +1,1 @@
+[_this]=lookup(USERSETTINGS(usuario),"USERS","USERNAME","CONTRASEÑA")
