@@ -1,0 +1,17 @@
+IF(
+  AND(
+    CONTEXT("view") = "Total Empresas_form",
+    [_THISROW].[editor] = "NO"
+  ),
+  IF(
+    COUNT(
+      SELECT(
+        Total Empresas[EMPRESA],
+        [_THISROW].[ID_EMPRESA] = [ID_EMPRESA]
+      )
+    ) = 0,
+    TRUE,
+    FALSE
+  ),
+  TRUE
+)
