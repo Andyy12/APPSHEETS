@@ -1,1 +1,5 @@
-[_this]=lookup(USERSETTINGS(usuario),"USERS","USERNAME","CONTRASEÑA")
+[_this]=lookup(USERSETTINGS(usuario),"USERS","USERNAME","CONTRASEÑA")  "" este es para validar la contraseña al entrar
+
+
+Este va en Shof If de cada vista para que lo deje ver si se logeo "en este caso solo en Menu": 
+IN(USERSETTINGS(USUARIO),USERS[USEREMAIL])
