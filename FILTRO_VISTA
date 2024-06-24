@@ -5,3 +5,11 @@ OR(
     [ENCARGADO DE CARTERA] = "Yeniffer Alzate Posso"
   )
 )
+
+
+
+
+
+
+
+[ASESOR]=LOOKUP(USEREMAIL(), USERS, USEREMAIL,USERNAME)
